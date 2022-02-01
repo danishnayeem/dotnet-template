@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zH+eBJi7QQu/83qQ7TW4rCkGVhSd9Db0KG9QqXw3m0YCaoX2W/e3/cGezxh9PN/vIjQ+GvuSoUSsNOQTaMhTng==",
+  "dgSpecHash": "MSl9cyzTMlxnr9RilUsL89q5UpBWlwAzSkSYqhK3+dbj8CwHUf0ctVqf5gcYH+lj+E/4K0MFel/xQDV2n0trMw==",
   "success": true,
-  "projectFilePath": "/home/danish/code/dotnet/template/Api/Api.csproj",
+  "projectFilePath": "/home/danish/Documents/code/self/dotnet-template/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/danish/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/home/danish/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/danish/code/dotnet/template/Api/Api.csproj": {}
+    "/home/danish/Documents/code/self/dotnet-template/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/danish/code/dotnet/template/Api/Api.csproj": {
+    "/home/danish/Documents/code/self/dotnet-template/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danish/code/dotnet/template/Api/Api.csproj",
+        "projectUniqueName": "/home/danish/Documents/code/self/dotnet-template/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/danish/code/dotnet/template/Api/Api.csproj",
+        "projectPath": "/home/danish/Documents/code/self/dotnet-template/Api/Api.csproj",
         "packagesPath": "/home/danish/.nuget/packages/",
-        "outputPath": "/home/danish/code/dotnet/template/Api/obj/",
+        "outputPath": "/home/danish/Documents/code/self/dotnet-template/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/danish/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj": {
-                "projectPath": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj"
+              "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj": {
+                "projectPath": "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj": {
+    "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+        "projectUniqueName": "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj",
         "projectName": "CoreLib",
-        "projectPath": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+        "projectPath": "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj",
         "packagesPath": "/home/danish/.nuget/packages/",
-        "outputPath": "/home/danish/code/dotnet/template/CoreLib/obj/",
+        "outputPath": "/home/danish/Documents/code/self/dotnet-template/CoreLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/danish/.nuget/NuGet/NuGet.Config"

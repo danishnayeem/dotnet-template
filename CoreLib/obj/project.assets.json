@@ -2612,11 +2612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+      "projectUniqueName": "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj",
       "projectName": "CoreLib",
-      "projectPath": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+      "projectPath": "/home/danish/Documents/code/self/dotnet-template/CoreLib/CoreLib.csproj",
       "packagesPath": "/home/danish/.nuget/packages/",
-      "outputPath": "/home/danish/code/dotnet/template/CoreLib/obj/",
+      "outputPath": "/home/danish/Documents/code/self/dotnet-template/CoreLib/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/danish/.nuget/NuGet/NuGet.Config"
