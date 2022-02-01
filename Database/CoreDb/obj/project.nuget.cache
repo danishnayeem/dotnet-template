@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fxu7V23VVnmDevEvnVfQCwdbvgHnLpSuZFfSa5v/5bWGn/w/I1vRhZUVIQOXoJjWGaCZoRGmYHKrD1SVjrNupQ==",
+  "success": true,
+  "projectFilePath": "/home/danish/code/dotnet/template/Database/CoreDb/CoreDb.sqlproj",
+  "expectedPackageFiles": [
+    "/home/danish/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/danish/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.0/microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

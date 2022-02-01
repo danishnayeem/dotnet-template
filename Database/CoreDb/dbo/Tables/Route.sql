@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Route]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)

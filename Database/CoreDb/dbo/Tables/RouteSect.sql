@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[RouteSect]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "Api"
+		},
+		{
+			"path": "AppLib"
+		},
+		{
+			"path": "CoreLib"
+		},
+		{
+			"path": "Database"
+		}
+	],
+	"settings": {
+		"dataworkspace.excludedProjects": [
+			"Database/CoreDb/CoreDb.sqlproj"
+		]
+	}
+}
