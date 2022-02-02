@@ -1,7 +1,4 @@
-./Api/obj
-./Api/bin
-./AppLib/obj
-./AppLib/bin
-./CoreLib/obj
-./CoreLib/bin
-
+**/obj/Debug
+**/bin/Debug
+**/obj/Release
+**/bin/Release
