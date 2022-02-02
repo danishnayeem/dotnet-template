@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj": {}
+  },
+  "projects": {
+    "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+        "projectName": "CoreLib",
+        "projectPath": "/home/danish/code/dotnet/template/CoreLib/CoreLib.csproj",
+        "packagesPath": "/home/danish/.nuget/packages/",
+        "outputPath": "/home/danish/code/dotnet/template/CoreLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/danish/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
