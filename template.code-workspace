@@ -14,8 +14,6 @@
 		}
 	],
 	"settings": {
-		"dataworkspace.excludedProjects": [
-			"Database/CoreDb/CoreDb.sqlproj"
-		]
+		"dataworkspace.excludedProjects": []
 	}
 }

@@ -63,6 +63,15 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\StoredProcedures\" />
+    <Folder Include="dbo\Views\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\StoredProcedures\User\" />
+    <Folder Include="dbo\StoredProcedures\Group\" />
+    <Folder Include="dbo\StoredProcedures\User\BasicInfo\" />
+    <Folder Include="dbo\StoredProcedures\User\ContactInfo\" />
+    <Folder Include="dbo\StoredProcedures\User\Credentials\" />
+    <Folder Include="dbo\Views\User\" />
+    <Folder Include="dbo\Views\Group\" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
@@ -87,6 +96,7 @@
     <Build Include="dbo\Tables\Api.sql" />
     <Build Include="dbo\Tables\RouteSectApi.sql" />
     <Build Include="dbo\Tables\ModuleSectApi.sql" />
-    <Build Include="dbo\StoredProcedures\sp_GetUsers.sql" />
+    <Build Include="dbo\StoredProcedures\User\BasicInfo\spUser_BasicInfo_Filter.sql" />
+    <Build Include="dbo\Views\User\vwUser_BasicInfo.sql" />
   </ItemGroup>
 </Project>
