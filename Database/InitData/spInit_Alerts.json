@@ -1,0 +1,133 @@
+{
+	"Language" : [
+		[ "AR", "Arabic", "Arabic - Saudi Arabia" ],
+		[ "EN", "English", "English - US" ],
+		[ "HI", "Hindi", "Hindi - India" ],
+		[ "UR", "Urdu", "Urdu - Pakistan" ],
+		[ "BN", "Bengali", "Bengali-Bangladesh" ]
+    ],
+    "Object" : [
+		[
+			"User",
+            "Alerts for User related changes",
+            [
+				[
+					"evUser_Add", "A new user account created" ,
+					[ "EN", "A new user account for {{ByFullName}} has been created by {{ByFullName}}" ]
+                ],
+				[
+					"evUser_Activate", "A user account was activated",
+                    [ "EN", "User account for {{OnFullName}} has been activated by {{ByFullName}}" ]
+                ],
+				[
+					"evUser_Activate_All", "Multiple user accounts were activated",
+                    [ "EN", "{{OnIds.length}} User accounts has been activated by {{ByFullName}}" ]
+				],
+				[
+					"evUser_Auth_Pass", "A user successfully logged in",
+                    [ "EN", "{{ByFullName}} logged in successfully" ]
+				],
+				[
+					"evUser_Auth_Fail_LoginId", "Failed login attemp due to inavalid user id",
+                    [ "EN", "A login attempt Failed with invalid user id" ]
+				],
+				[
+					"evUser_Auth_Fail_LoginPassword", "Login attempt failed on a user due to wrong password",
+                    [ "EN", "{{ByFullName}}'s login attempt failed due to invalid password" ]
+				],
+				[
+					"evUser_Auth_Fail_Invalid", "Failed login attempt due to invalid reason",
+                    [ "EN", "A login attemp failed for invalid reason." ]
+				],
+				[
+					"evUser_Update_FullInfo_Self", "A user updated his or her own account info.",
+                    [ "EN", "{{ByFullName}} updated {{ByGenderAssociate}} full account information" ]
+				],
+				[
+					"evUser_Update_FullInfo_Other", "An admin update full info of a user account.",
+                    [ "EN", "{{ByFullName}} updated full account information of {{OnFullName}}" ]
+				],
+				[
+					"evUser_Update_Gender", "A user got his gender changed.",
+                    [ "EN", "{{ByFullName}} updated the gender of {{OnFullName}}" ]
+				]
+                
+                ,
+				[
+					"evUser_Update_BasicInfo_Self", "A user updated his or her account basic info.",
+                    [ "EN", "{{ByFullName}} updated {{ByGenderAssociate}} account basic details" ]
+				],
+				[
+					"evUser_Update_BasicInfo_Other", "An admin updated the basic info of a user.",
+                    [ "EN", "{{ByFullName}} updated the basic account info of {{OnFullName}}" ]
+				],
+				[
+					"evUser_Update_BasicInfo_NotInProject", "Failed attempt to update basic account info who does not belong to a project.",
+                    [ "EN", "{{ByFullName}} from {{ProjectShortName}} attempted to update basic account info of {{OnFullName}} who does not belong to this project." ]
+				],
+				[
+					"evUser_ById_BasicInfo_NotInProject", "Failed attempt to get basic info of a user outside the project.",
+                    [ "EN", "{{ByFullName}} from {{ProjectShortName}} attempted to access the basic info of {{OnFullName}} who does not belong to the project." ]
+				]
+                
+                ,
+				[
+					"evUser_ById_ContactInfo_NotInProject", "Failed attempt to get contact info of a user outside the project.",
+                    [ "EN", "{{ByFullName}} from {{ProjectShortName}} attempted to access the contact info of a user that does not belong to the project." ]
+				],
+				[
+					"evUser_Update_ContactInfo_Self", "A user updated his or her own contact info.",
+                    [ "EN", "{{ByFullName}} updated {{ByGenderAssociate}} contact information." ]
+				],
+				[
+					"evUser_Update_ContactInfo_Other", "An admin updated the contact info of a user.",
+                    [ "EN", "{{ByFullName}} updated the contact info of a {{OnFullName}}'s user account" ]
+				],
+				[
+					"evUser_Update_ContactInfo_NotInProject", "Failed attempt to update contact info of other project's user",
+                    [ "EN", "{{ByFullName}} from {{ProjectShortName}} project attempted to update the contact info of {{OnFullName}} who does not belong to the project" ]
+				]
+                
+                ,
+				[
+					"evUser_ById_Credentials_NotInProject", "Failed attempt to get credentials of other project's user",
+                    [ "EN", "{{ByFullName}} {{ProjectShortName}} project attempted to access the credentials of {{OnFullName}} who does not belong to the project." ]
+				],
+				[
+					"evUser_Update_Credentials_Self", "A user updated his or her account login credentials.",
+                    [ "EN", "{{ByFullName}} updated {{GenderAssociate}} login credentials." ]
+				],
+				[
+					"evUser_Update_Credentials_Other", "An admin updated the login credentials of a user.",
+                    [ "EN", "{{ByFullName}} updated the contact info of {{OnFullName}}'s user account." ]
+				],
+				[
+					"evUser_Update_Credentials_NotInProject", "Failed attempt to update login credentials of other project's user.",
+                    [ "EN", "{{ByFullName}} from {{ProjectShortName}} project attempted to update {{OnFullName}}'s login credentials who does not belong to the project." ]
+				]
+            ]
+        ],
+        [
+            "Project",
+            "Alerts for Project related changes",
+            [
+                [
+                    "evProject_", "",
+                    [ "EN", "" ]
+                ],
+                [
+                    "evProject_", "",
+                    [ "EN", "" ]
+                ],
+                [
+                    "evProject_", "",
+                    [ "EN", "" ]
+                ],
+                [
+                    "evProject_", "",
+                    [ "EN", "" ]
+                ]
+            ]
+        ]
+	]
+}
