@@ -205,15 +205,15 @@
 					[ "EN", "{{ByFullName}} allowed {{PageSectName}} page section to {{GroupName}} group." ]
 				],
 				[
-					"evGroup_Page_AddAll", "Multiple page section allowed to a group",
+					"evGroup_PageSect_AddAll", "Multiple page section allowed to a group",
 					[ "EN", "{{ByFullName}} allowed {{PageSectIds.length}} new page sections to be accessed by {{GroupName}} group." ]
 				],
 				[
-					"evGroup_Page_Remove", "A page section access removed for a group",
+					"evGroup_PageSect_Remove", "A page section access removed for a group",
 					[ "EN", "{{ByFullName}} removed access for {{PageSectName}} for {{GroupName}} group." ]
 				],
 				[
-					"evGroup_Page_RemoveAll", "Multiple page section access removed for a group",
+					"evGroup_PageSect_RemoveAll", "Multiple page section access removed for a group",
 					[ "EN", "{{ByFullName}} removed access for {{PageSectIds.length}} page sections for {{GroupName}} group." ]
 				]
             ]
