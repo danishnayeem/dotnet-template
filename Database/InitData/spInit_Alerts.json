@@ -105,6 +105,34 @@
 					"evUser_Update_Credentials_NotInProject", "Failed attempt to update login credentials of other project's user.",
                     [ "EN", "{{ByFullName}} from {{ProjectShortName}} project attempted to update {{OnFullName}}'s login credentials who does not belong to the project." ]
 				]
+
+				,
+                [
+                    "evUser_Project_Add", "A user added to a project",
+                    [ "EN", "{{ByFullName}} added {{OnFullName}} to {{ProjectShortName}} Project." ]
+                ],
+                [
+                    "evUser_Project_AddAll", "Multiple users added to the project",
+                    [ "EN", "{{ByFullName}} added {{OnIds.length}} users to {{ProjectShortName}} project." ]
+                ],
+                [
+                    "evUser_Project_Remove", "A user removed from a project",
+                    [ "EN", "{{ByFullName}} removed {{OnFullName}} from {{ProjectShortName}} project" ]
+                ],
+                [
+                    "evUser_Project_RemoveAll", "Multiple users removed from a project",
+                    [ "EN", "{{ByFullName}} removed {{OnIds.length}} from {{ProjectShortName}} project." ]
+                ]
+
+				,
+                [
+                    "evUser_Group_Add", "A user added to a group",
+                    [ "EN", "{{ByFullName}} added {{OnFullName}} to {{GroupName}} Group." ]
+                ],
+                [
+                    "evUser_Group_Remove", "A user removed from a group",
+                    [ "EN", "{{ByFullName}} removed {{OnFullName}} from {{ProjectShortName}} group." ]
+                ]
             ]
         ],
         [
@@ -112,21 +140,82 @@
             "Alerts for Project related changes",
             [
                 [
-                    "evProject_", "",
-                    [ "EN", "" ]
+                    "evProject_Add", "A new project added",
+                    [ "EN", "{{ByFullName}} added a new project as {{ProjectShortName}}" ]
                 ],
                 [
-                    "evProject_", "",
-                    [ "EN", "" ]
+                    "evProject_Update", "Project info updated",
+                    [ "EN", "{{ByFullName}} updated the details of {{ProjectShortName}} project." ]
                 ],
                 [
-                    "evProject_", "",
-                    [ "EN", "" ]
+                    "evProject_Remove", "A Project removed",
+                    [ "EN", "{{ByFullName}} removed {{ProjectShortName}} project" ]
                 ],
                 [
-                    "evProject_", "",
-                    [ "EN", "" ]
+                    "evProject_Recover", "A project recovered",
+                    [ "EN", "{{ByFullName}} recovered {{ProjectShortName}} project that was deleted." ]
                 ]
+            ]
+        ],
+        [
+            "Group",
+            "Events for Group related tables",
+            [
+                [
+                    "evGroup_Add", "A new group added",
+                    [ "EN", "{{ByFullName}} added a new group as {{GroupName}}" ]
+                ],
+                [
+                    "evGroup_Active", "Group activated",
+                    [ "EN", "{{ByFullName}} activated the {{GroupName}} group." ]
+                ],
+                [
+                    "evGroup_Update", "Group information updated",
+                    [ "EN", "{{ByFullName}} updated {{GroupName}} group details." ]
+                ],
+                [
+                    "evGroup_Remove", "A group removed",
+                    [ "EN", "{{ByFullName}} removed {{GroupName}} group." ]
+                ],
+                [
+                    "evGroup_Recovered", "A group recovered",
+                    [ "EN", "{{ByFullName}} recovered {{GroupName}} group which was previously removed." ]
+                ]
+
+				,
+				[
+					"evGroup_Page_Add", "A page access allowed to a group",
+					[ "EN", "{{ByFullName}} allowed users of {{GroupName}} group to access {{PageName}} page" ]
+				],
+				[
+					"evGroup_Page_AddAll", "Multiple pages allowed to a group",
+					[ "EN", "{{ByFullName}} allowed users of {{GroupName}} to access {{PageIds.length}} new pages." ]
+				],
+				[
+					"evGroup_Page_Remove", "Page access removed from a group",
+					[ "EN", "{{ByFullName}} removed access of {{PageName}} page for users in {{GroupName}} group." ]
+				],
+				[
+					"evGroup_Page_RemoveAll", "Multiple access removed from a group",
+					[ "EN", "{{ByFullName}} removed {{PageIds.length}} page access for users in {{GroupName}} group." ]
+				]
+				,
+				[
+					"evGroup_PageSect_Add", "Page Section allowed to a group",
+					[ "EN", "{{ByFullName}} allowed {{PageSectName}} page section to {{GroupName}} group." ]
+				],
+				[
+					"evGroup_Page_AddAll", "Multiple page section allowed to a group",
+					[ "EN", "{{ByFullName}} allowed {{PageSectIds.length}} new page sections to be accessed by {{GroupName}} group." ]
+				],
+				[
+					"evGroup_Page_Remove", "A page section access removed for a group",
+					[ "EN", "{{ByFullName}} removed access for {{PageSectName}} for {{GroupName}} group." ]
+				],
+				[
+					"evGroup_Page_RemoveAll", "Multiple page section access removed for a group",
+					[ "EN", "{{ByFullName}} removed access for {{PageSectIds.length}} page sections for {{GroupName}} group." ]
+				]
             ]
         ]
 	]
