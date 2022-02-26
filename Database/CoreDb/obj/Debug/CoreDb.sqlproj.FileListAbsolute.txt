@@ -1,9 +1,0 @@
-/home/danish/code/dotnet/template/Database/CoreDb/bin/Debug/CoreDb.dacpac
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/Model.xml
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/refactor.xml
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/postdeploy.sql
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/predeploy.sql
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/CoreDb.dll
-/home/danish/code/dotnet/template/Database/CoreDb/obj/Debug/CoreDb.pdb
-/home/danish/code/dotnet/template/Database/CoreDb/bin/Debug/CoreDb.dll
-/home/danish/code/dotnet/template/Database/CoreDb/bin/Debug/CoreDb.pdb

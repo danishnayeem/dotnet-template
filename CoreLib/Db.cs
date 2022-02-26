@@ -4,6 +4,7 @@ namespace CoreLib;
 public class Db
 {
     public static MySqlConnection con;
+    public static string ProjectAuth;
     public static string ConnectionString;
     public static void Config(string connectionString){
         Db.ConnectionString = connectionString;

@@ -1,4 +1,0 @@
-CREATE TABLE [dbo].[Section]
-(
-  [Id] INT NOT NULL PRIMARY KEY
-)
